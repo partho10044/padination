@@ -1,13 +1,8 @@
-# quiz.py
-
-answer = input("When the first known use of the word 'quiz'?")
-if answer == "1781":
-    print ("Correct!")
-else: 
-    print(f"The answer is '1781', not {answer!r}")
-
-    answer = input("Which built-in function can get information form the user? ")
-    if answer == "input":
-      print("Correct!")
+age=int(input("Enter your age : "))
+if age>=10:
+    if age<=20:
+        print  ("Your age is : ", age,"/n You are allowed to enter the class")
     else:
-      print(f"The answer is 'input',not {answer!r}")
+        print ("Your age is:",age, " /nYou are not allowed to enter the class")
+else:
+    print ("Your age is : ",age, "/n You are not eligible")
